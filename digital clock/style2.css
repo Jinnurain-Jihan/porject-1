@@ -1,0 +1,49 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'popins',sans-serif;
+}
+::selection{
+      background-color: red;
+      color: #fff;
+}
+.container{
+      color: #fff;
+      width: 100%;
+      margin: 0 auto ;
+      height: 100vh;
+      background-color: #07253d;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.heading{
+      margin-top: -50px;
+      font-size: 3.5em;
+      margin: 80px 0px;
+      position: absolute;
+      top: 0px;
+      background: url(./img/smoke.gif);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+.clockbox{
+      width: 600px;
+      height: 100px;
+      background:linear-gradient(to right,blue ,green,deeppink);
+      border-radius: 10px;
+      box-shadow: inset 5px 5px 5px  #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.clockbox span{
+      font-size: 100px;
+      text-shadow: 2px 2px 4px #000000;
+}
+#am{
+      font-size: 30px;
+      margin-left: 100px;
+}
